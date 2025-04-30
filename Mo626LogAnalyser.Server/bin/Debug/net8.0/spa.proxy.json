@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:53299",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\Mo626LogAnalyser.Server\\..\\mo626loganalyser.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

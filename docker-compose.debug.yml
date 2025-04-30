@@ -1,0 +1,17 @@
+services:
+  loganalyser-api:
+    image: loganalyser-api:debug
+    build:
+      target: debug
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+  # loganalyser-client:
+  #   image: loganalyser-client:debug
+  #   build:
+  #     target: debug
+  #   environment:
+  #     - REACT_APP_API_URL=http://localhost:8080
+  #     - NODE_OPTIONS=--max_old_space_size=4096
+  #   volumes:
+  #     - /mnt/c/Users/stephen.omondi/source/repos/Mo626LogAnalyser.Client:/app:cached

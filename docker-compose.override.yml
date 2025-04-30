@@ -1,0 +1,20 @@
+services:
+  loganalyser-api:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./Mo626LogAnalyser.Server:/src/Mo626LogAnalyser.Server
+  # loganalyser-client:
+  #   volumes:
+  #     - ./mo626loganalyser.client:/app
+  #     - /app/node_modules
+  #   working_dir: /app
+  #   command: npm run dev
+  #   environment:
+  #     - NODE_ENV=development
+  #     - CHOKIDAR_USEPOLLING=true
+  #   ports:
+  #     - "8081:5173"
+  #   stdin_open: true # Required for the terminal to be interactive
+  #   tty: true # Required for the terminal to be interactive
+    

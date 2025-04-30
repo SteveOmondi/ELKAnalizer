@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Mo626LogAnalyser.Server.props" />
+</Project>

@@ -1,0 +1,1 @@
+C:\Users\stephen.omondi\source\repos\Mo626LogAnalyser\mo626loganalyser.client\obj\Debug\mo626loganalyser.client.esproj.CoreCompileInputs.cache

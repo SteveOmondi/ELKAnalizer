@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "cH1Tg45eSrYsftDaCipC4r3wy3kWBeuVbzxhYxwLKcE=",
+  "Source": "Mo626LogAnalyser.Server",
+  "BasePath": "_content/Mo626LogAnalyser.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\mo626loganalyser.client\\mo626loganalyser.client.esproj",
+      "Version": 2,
+      "Source": "mo626loganalyser.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

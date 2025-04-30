@@ -1,0 +1,6 @@
+@Mo626LogAnalyser.Server_HostAddress = http://localhost:5223
+
+GET {{Mo626LogAnalyser.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,45 @@
+services:
+  loganalyser-api:
+    build: 
+      context: . 
+      dockerfile: Mo626LogAnalyser.Server/Dockerfile
+    container_name: loganalyser-api
+    networks:
+      - app-network
+      - mo626_ice_elk
+    ports:
+      - "44368:8080"
+    # volumes:
+    #   - type: bind
+    #     source: ${PWD}/Mo626LogAnalyser.Server
+    #     target: /app
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ELK__ServerUrl=http://elasticsearch:9200
+    restart: unless-stopped
+    # depends_on:
+    #   - loganalyser-client
+
+  # loganalyser-client:
+  #   build:
+  #     context: .
+  #     dockerfile: Mo626LogAnalyser.Client/Dockerfile
+  #   container_name: loganalyser-client
+  #   networks:
+  #     - app-network
+  #   ports:
+  #     - "8081:5173"
+  #   # volumes:
+  #   #   - type: bind
+  #   #     source: ${PWD}/Mo626LogAnalyser.Client
+  #   #     target: /app
+  #   environment:
+  #     - REACT_APP_ENVIRONMENT=Development
+  #     - REACT_APP_API_URL=http://loganalyser-api:8080
+  #   restart: unless-stopped
+
+networks:
+  app-network:
+    driver: bridge
+  mo626_ice_elk: # Add this network definition
+    external: true

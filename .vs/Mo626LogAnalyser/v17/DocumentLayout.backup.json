@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D5E2D2F-9D87-444C-87C6-F52467534F1C}|Mo626LogAnalyser.Server\\Mo626LogAnalyser.Server.csproj|c:\\users\\stephen.omondi\\source\\repos\\mo626loganalyser\\mo626loganalyser.server\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D5E2D2F-9D87-444C-87C6-F52467534F1C}|Mo626LogAnalyser.Server\\Mo626LogAnalyser.Server.csproj|solutionrelative:mo626loganalyser.server\\controllers\\logscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D5E2D2F-9D87-444C-87C6-F52467534F1C}|Mo626LogAnalyser.Server\\Mo626LogAnalyser.Server.csproj|c:\\users\\stephen.omondi\\source\\repos\\mo626loganalyser\\mo626loganalyser.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D5E2D2F-9D87-444C-87C6-F52467534F1C}|Mo626LogAnalyser.Server\\Mo626LogAnalyser.Server.csproj|solutionrelative:mo626loganalyser.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D5E2D2F-9D87-444C-87C6-F52467534F1C}|Mo626LogAnalyser.Server\\Mo626LogAnalyser.Server.csproj|c:\\users\\stephen.omondi\\source\\repos\\mo626loganalyser\\mo626loganalyser.server\\models\\logsearchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D5E2D2F-9D87-444C-87C6-F52467534F1C}|Mo626LogAnalyser.Server\\Mo626LogAnalyser.Server.csproj|solutionrelative:mo626loganalyser.server\\models\\logsearchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D5E2D2F-9D87-444C-87C6-F52467534F1C}|Mo626LogAnalyser.Server\\Mo626LogAnalyser.Server.csproj|c:\\users\\stephen.omondi\\source\\repos\\mo626loganalyser\\mo626loganalyser.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4D5E2D2F-9D87-444C-87C6-F52467534F1C}|Mo626LogAnalyser.Server\\Mo626LogAnalyser.Server.csproj|solutionrelative:mo626loganalyser.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A4B38E5-28CE-4042-A709-F441FE18230E}|mo626loganalyser.client\\mo626loganalyser.client.esproj|c:\\users\\stephen.omondi\\source\\repos\\mo626loganalyser\\mo626loganalyser.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A4B38E5-28CE-4042-A709-F441FE18230E}|mo626loganalyser.client\\mo626loganalyser.client.esproj|solutionrelative:mo626loganalyser.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A32C8CB7-DA03-4AA4-BB64-DBC07B3D3317}|docker-compose.dcproj|c:\\users\\stephen.omondi\\source\\repos\\mo626loganalyser\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A32C8CB7-DA03-4AA4-BB64-DBC07B3D3317}|docker-compose.dcproj|solutionrelative:docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\mo626loganalyser.client\\package.json",
+              "RelativeDocumentMoniker": "mo626loganalyser.client\\package.json",
+              "ToolTip": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\mo626loganalyser.client\\package.json",
+              "RelativeToolTip": "mo626loganalyser.client\\package.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-23T07:19:09.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\Mo626LogAnalyser.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Mo626LogAnalyser.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\Mo626LogAnalyser.Server\\Program.cs",
+              "RelativeToolTip": "Mo626LogAnalyser.Server\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T08:26:38.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\Mo626LogAnalyser.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Mo626LogAnalyser.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\Mo626LogAnalyser.Server\\appsettings.json",
+              "RelativeToolTip": "Mo626LogAnalyser.Server\\appsettings.json",
+              "ViewState": "AgIAABoAAAAAAAAAAAAcwCAAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-22T07:35:57.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "docker-compose.yml",
+              "DocumentMoniker": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\docker-compose.yml",
+              "RelativeDocumentMoniker": "docker-compose.yml",
+              "ToolTip": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\docker-compose.yml",
+              "RelativeToolTip": "docker-compose.yml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2025-04-22T07:03:11.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LogsController.cs",
+              "DocumentMoniker": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\Mo626LogAnalyser.Server\\Controllers\\LogsController.cs",
+              "RelativeDocumentMoniker": "Mo626LogAnalyser.Server\\Controllers\\LogsController.cs",
+              "ToolTip": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\Mo626LogAnalyser.Server\\Controllers\\LogsController.cs",
+              "RelativeToolTip": "Mo626LogAnalyser.Server\\Controllers\\LogsController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T06:42:12.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LogSearchRequest.cs",
+              "DocumentMoniker": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\Mo626LogAnalyser.Server\\Models\\LogSearchRequest.cs",
+              "RelativeDocumentMoniker": "Mo626LogAnalyser.Server\\Models\\LogSearchRequest.cs",
+              "ToolTip": "C:\\Users\\stephen.omondi\\source\\repos\\Mo626LogAnalyser\\Mo626LogAnalyser.Server\\Models\\LogSearchRequest.cs",
+              "RelativeToolTip": "Mo626LogAnalyser.Server\\Models\\LogSearchRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T06:40:01.313Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

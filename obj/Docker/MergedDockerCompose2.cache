@@ -1,0 +1,32 @@
+name: dockercompose10125962497776542290
+services:
+  loganalyser-api:
+    build:
+      context: C:\Users\stephen.omondi\source\repos\Mo626LogAnalyser
+      dockerfile: Mo626LogAnalyser.Server/Dockerfile
+    container_name: loganalyser-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ELK__ServerUrl: http://elasticsearch:9200
+    networks:
+      app-network: null
+      mo626_ice_elk: null
+    ports:
+      - mode: ingress
+        target: 8080
+        published: "44368"
+        protocol: tcp
+    restart: unless-stopped
+    volumes:
+      - type: bind
+        source: C:\Users\stephen.omondi\source\repos\Mo626LogAnalyser\Mo626LogAnalyser.Server
+        target: /src/Mo626LogAnalyser.Server
+        bind:
+          create_host_path: true
+networks:
+  app-network:
+    name: dockercompose10125962497776542290_app-network
+    driver: bridge
+  mo626_ice_elk:
+    name: mo626_ice_elk
+    external: true
